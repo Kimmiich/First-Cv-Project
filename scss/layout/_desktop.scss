@@ -1,0 +1,55 @@
+body {
+    background-color: $bg2-color;
+    h3 {
+        font-size: $subheader-size;
+    }
+}
+.grid-container {
+    background-color: $bg-color;
+    min-width: 770px;
+    width: 70%;
+    margin: auto;
+    padding-top: 0%;
+    display: grid;
+    grid-template-columns: 1fr 0.9fr 1.1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "head head head"
+      "main main aside"
+      "footer footer footer";
+}
+header { 
+   .name-title {
+        h1 {
+            font-size: 3.5em;
+        } 
+        h2 {
+            font-size: $subheader-size;
+        }
+    }
+    .like-dislike {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+    .mailbox {
+        font-size: 1.1em;
+        width: 130px;
+        right: 20%;
+    }
+}
+aside {
+    p {
+        font-size: 1rem;
+    }
+    h4 {
+        font-size: 1.1rem;
+    }
+}
+ footer {
+  .contact {
+        position: relative;
+        right: 10px;
+    }   
+ }
+
+

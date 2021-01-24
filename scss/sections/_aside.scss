@@ -1,0 +1,32 @@
+aside { 
+    grid-area: aside;
+    padding: 0px 25px 0px 25px;
+    .skills {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        .fab {
+            font-size: 3.3em;
+            color: $primary-color;
+           
+        }
+        .fa-html5 {
+            position: relative;
+            top: 10px;
+            right: 30px;
+        } 
+        .fa-sass {
+            position: relative;
+            top: 15px;
+        } 
+        .fa-css3-alt {
+            position: relative;
+            top: 10px;
+            left: 30px;
+        }   
+    }
+    p {
+        margin-top: 5px;
+        font-size: 1.2em;
+    }
+}

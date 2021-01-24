@@ -1,0 +1,43 @@
+header {
+        grid-area: head; 
+        font-family: $text-font;
+        height: fit-content;
+    .name-title { 
+        h1 {
+            font-size: 2.7em ;
+            font-family: $text-header; 
+        }
+        h2 {
+            font-size: 1.4em;
+        }
+    }
+    img {
+        max-width: 100%;
+    }
+    .like-dislike {        
+        font-size: 1.1em;
+        margin-top: 7px;
+        margin-bottom: 16px;
+        span {
+            font-weight: bold;
+        }
+    } 
+    .mailbox {
+        display: block;
+        position: absolute;
+        right: 7%;
+        margin: auto;
+        width: 100px;
+        font-weight: bolder;
+        font-size: 0.9em;
+        background-color: $primary-color;
+        color: black;
+        padding: 9px;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-radius: 10px;
+    } 
+    .mailbox:hover {
+        text-decoration: underline;
+    }   
+}
